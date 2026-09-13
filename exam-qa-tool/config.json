@@ -1,0 +1,21 @@
+{
+  "projectRoot": "../",
+  "dataPath": "../src/data/questions.json",
+  "metaPath": "../src/data/examMeta.json",
+  "reportsDir": "./reports",
+  "screenshotsDir": "./reports/screenshots",
+  "localhost": "http://localhost:5173",
+  "expectedQuestionCount": {
+    "default": 60,
+    "12": 70,
+    "13": 70,
+    "14": 70
+  },
+  "validAnswers": ["A", "B", "C", "D"],
+  "playwright": {
+    "headless": false,
+    "slowMo": 100,
+    "timeout": 30000
+  }
+}
+

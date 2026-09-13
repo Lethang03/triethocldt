@@ -1,0 +1,20 @@
+{
+  "name": "exam-qa-tool",
+  "version": "1.0.0",
+  "description": "Automated QA Verification Tool for Ôn Thi Pro exam platform",
+  "type": "module",
+  "scripts": {
+    "test": "node run-test.js",
+    "test:data": "node src/01-data-validator.js",
+    "test:answers": "node src/02-answer-verifier.js",
+    "test:scoring": "node src/03-scoring-verifier.js",
+    "test:e2e": "node src/04-e2e-playwright.js",
+    "test:history": "node src/05-history-verifier.js",
+    "report": "node src/06-report-generator.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  },
+  "devDependencies": {}
+}
+

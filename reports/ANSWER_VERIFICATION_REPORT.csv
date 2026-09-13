@@ -1,0 +1,11 @@
+Đề,Câu,Nội dung câu hỏi (Word),Đáp án đúng (Word),Đáp án đúng (Website),Trạng thái
+"-- CHÚ THÍCH --","","","","",""
+"INFO","","Script python verify_docx.py cần chạy để tạo báo cáo so sánh đầy đủ","","",""
+"INFO","","Chạy: E:\Ôn thi\exam-qa-tool\RUN_DOCX_VERIFY.bat","","",""
+"","","","","",""
+"-- LỖI CẤU TRÚC ĐÃ XÁC NHẬN --","","","","",""
+"01 (meta)","N/A","Đề khai báo trong examMeta.json nhưng KHÔNG CÓ trong questions.json","N/A","N/A","CRITICAL_MISSING"
+"15 (data)","N/A","Đề có trong questions.json nhưng KHÔNG khai báo trong examMeta.json","N/A","N/A","CRITICAL_HIDDEN"
+"02-11","55-57","Câu type=sequence - không có giao diện nhập liệu phù hợp","(text)","(text)","WARN_NON_MCQ"
+"02-11","58-60","Câu type=text - không chấm điểm được tự động","(text)","(text)","WARN_NON_MCQ"
+

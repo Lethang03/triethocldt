@@ -1,0 +1,15 @@
+{
+  "exams": [
+    {
+      "examId": "02",
+      "questions": [
+        { "questionId": 55, "type": "sequence", "referenceAnswer": "3-1-2-4", "keywords": [], "points": 1 },
+        { "questionId": 56, "type": "sequence", "referenceAnswer": "2-4-1", "keywords": [], "points": 1 },
+        { "questionId": 57, "type": "sequence", "referenceAnswer": "2-1-3", "keywords": [], "points": 1 },
+        { "questionId": 58, "type": "text", "referenceAnswer": "Thực tiễn là tiêu chuẩn kiểm tra chân lý", "keywords": ["thực tiễn", "tiêu chuẩn", "chân lý"], "points": 1 },
+        { "questionId": 59, "type": "text", "referenceAnswer": "Sự phát triển của xã hội là quá trình lịch sử - tự nhiên, chịu sự chi phối của các quy luật khách quan", "keywords": ["lịch sử", "tự nhiên", "quy luật khách quan"], "points": 1 },
+        { "questionId": 60, "type": "text", "referenceAnswer": "Tôn trọng tính khách quan, xuất phát từ thực tiễn; phát huy tính năng động, sáng tạo của ý thức và vai trò của con người", "keywords": ["khách quan", "thực tiễn", "sáng tạo"], "points": 1 }
+      ]
+    }
+  ]
+}
